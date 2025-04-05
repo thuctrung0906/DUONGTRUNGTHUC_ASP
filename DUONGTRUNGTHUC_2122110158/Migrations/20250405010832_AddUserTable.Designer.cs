@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DUONGTRUNGTHUC_2122110158.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250329035953_AddUserTable")]
+    [Migration("20250405010832_AddUserTable")]
     partial class AddUserTable
     {
         /// <inheritdoc />
@@ -67,6 +67,43 @@ namespace DUONGTRUNGTHUC_2122110158.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("DUONGTRUNGTHUC_2122110158.Model.User", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Avatar")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

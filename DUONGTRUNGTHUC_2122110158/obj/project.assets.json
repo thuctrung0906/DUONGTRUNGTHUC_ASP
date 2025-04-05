@@ -5176,11 +5176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158.csproj",
+      "projectUniqueName": "D:\\ASP_NET\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158.csproj",
       "projectName": "DUONGTRUNGTHUC_2122110158",
-      "projectPath": "D:\\ASP\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158.csproj",
+      "projectPath": "D:\\ASP_NET\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158\\obj\\",
+      "outputPath": "D:\\ASP_NET\\DUONGTRUNGTHUC_2122110158\\DUONGTRUNGTHUC_2122110158\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
